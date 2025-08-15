@@ -12,3 +12,13 @@ spring:
       show-sql: true
       properties:
         hibernate.format_sql: true
+server:
+  port: 8080
+openai:
+  api-key: YOUR_OPENAI_API_KEY
+  model: gpt-3.5-turbo
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
